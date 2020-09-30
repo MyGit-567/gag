@@ -1,7 +1,10 @@
-import React from "react";
+import React from 'react';
+import Alldata from './ClientComponent/Alldata';
 
-function App() {
-  return <div style={{ textAlign: "center" }}>hi</div>;
+export default function App() {
+  return (
+    <div>
+      <Alldata/>
+    </div>
+  )
 }
-
-export default App;
