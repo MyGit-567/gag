@@ -16,16 +16,8 @@ export default function Data() {
     return (
         <div className="container">
             <div className="row">
-                <NavBarSomeText 
-                addPict ={addPict}/> 
-            </div>
-            <div className="row">
-                <div className="col-md-3"><br></br>
-                    <Meme 
-                    pictures={pictures}/>
-            </div>
-            <div className="col-md-3">
-                </div>
+                <NavBarSomeText addPict ={addPict}/>
+                <Meme pictures={pictures}/> 
             </div>
         </div>
     );
