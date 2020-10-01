@@ -1,8 +1,9 @@
 img {
-    border: 8px solid #ddd;
+    border: 6px solid #ddd;
     border-radius: 6px;
     padding: 1px;
-    width: 290px;
+    width: 210px;
+    display: inline-block;
   }
   
   img:hover {
