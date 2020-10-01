@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import "./Style.css";
-import Navbar from'./Navbar';
+import NavBarSomeText from'./NavBarSomeText';
 
 
 export default function Data() {
@@ -8,21 +8,19 @@ export default function Data() {
         {name: 'a', description:"bla", path:'./pics/1.png'}
     ]);
     const addPict = (newImage) => {
-        setPictures([pictures, ...newImage]) ;
+        setPictures([pictures, ...newImage]) ; 
     };
     return (
         <div className="container">
             <div className="row">
-                <Navbar
-                addPict ={addPict}/>
+                <NavBarSomeText /> 
             </div>
             <div className="row">
                 <div className="col-md-3">
             </div>
             <div className="col-md-3">
-                
                 </div>
             </div>
         </div>
-    )
+    );
 }
