@@ -6,7 +6,7 @@ function Print({pictures}) {
       <div className="img">
         <h1>{pict.name}</h1>
         <h1>{pict.description}</h1>
-        <img src={pict.path} alt={pict.altImg}/>
+        <a href={pict.path}><img src={pict.path} alt={pict.altImg} /></a>
       </div>
   ))}</div>
   );   

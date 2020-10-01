@@ -9,7 +9,7 @@ export default function NavbarSomeText() {
             <div class="row">
                 <div class="col-md-12">
                     <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">Home</Navbar.Brand> 
+                    <Navbar.Brand href="#home">6GAG</Navbar.Brand> 
                     <Nav className="mr-auto">
                     <Nav.Link href="#home">Menu</Nav.Link>
                     <Nav.Link href="#features">Call</Nav.Link>
