@@ -19,7 +19,9 @@ export default function NavbarSomeText() {
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                     <Button variant="outline-info">Search</Button>
                     </Form>
-                    </Navbar> 
+                    </Navbar>
+                        <input type="file" id="myFile" name="filename" ></input>
+                        <input type="submit"></input>
                 </div>
             </div>
         </div>
