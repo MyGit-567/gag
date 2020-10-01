@@ -7,7 +7,8 @@ import Meme from './printdata';
 export default function Data() {
     const [pictures, setPictures] = useState([
         {name: 'Laught', description:"It's fun!", path:'./pics/1.png'},
-        {name: 'a', description:"bla", path:'./pics/2.png'}
+        {name: 'Oh No!', description:"yes...no...", path:'./pics/2.png'},
+        {name: 'So smart', description:"..", path:'./pics/3.png'}
     ]);
     const addPict = (newImage) => {
         setPictures([pictures, ...newImage]) ; 
